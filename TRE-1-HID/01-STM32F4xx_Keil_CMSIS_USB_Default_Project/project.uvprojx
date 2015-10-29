@@ -670,6 +670,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -706,16 +721,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -724,6 +729,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -756,9 +841,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -891,6 +991,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -1558,6 +1661,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1594,16 +1712,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -1612,6 +1720,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1644,9 +1832,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1779,6 +1982,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -2446,6 +2652,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2482,16 +2703,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -2500,6 +2711,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2532,9 +2823,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2667,6 +2973,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -2880,7 +3189,7 @@
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M4"</AdsCpuType>
             <RvctDeviceName></RvctDeviceName>
-            <mOS>0</mOS>
+            <mOS>1</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
             <hadIROM>1</hadIROM>
@@ -3035,7 +3344,7 @@
             <vShortWch>0</vShortWch>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>STM32F429_439xx,USE_STDPERIPH_DRIVER,STM32F4XX,KEIL_IDE,TM_DISCO_STM32F429_DISCOVERY,HSE_VALUE=8000000,PLL_M=8,PLL_N=336,PLL_P=2,PLL_Q=7,USE_USB_OTG_HS</Define>
+              <Define>STM32F429_439xx,USE_STDPERIPH_DRIVER,STM32F4XX,KEIL_IDE,TM_DISCO_STM32F429_DISCOVERY,HSE_VALUE=8000000,PLL_M=8,PLL_N=336,PLL_P=2,PLL_Q=7,USE_USB_OTG_HS,TM_DELAY_TIM=TIM2,TM_DELAY_TIM_IRQ=TIM2_IRQn,TM_DELAY_TIM_IRQ_HANDLER=TIM2_IRQHandler</Define>
               <Undefine></Undefine>
               <IncludePath>.\User;.\TM;..\00-STM32F429_LIBRARIES;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\inc;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Include;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include;..\00-STM32F429_LIBRARIES\usb_hid_device</IncludePath>
             </VariousControls>
@@ -3335,6 +3644,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3371,16 +3695,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -3389,6 +3703,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3421,9 +3815,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3556,6 +3965,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -4223,6 +4635,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4259,16 +4686,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -4277,6 +4694,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -4309,9 +4806,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4444,6 +4956,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -5111,6 +5626,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5147,16 +5677,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -5165,6 +5685,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -5197,9 +5797,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5332,6 +5947,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -5999,6 +6617,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -6035,16 +6668,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -6053,6 +6676,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -6085,9 +6788,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6220,6 +6938,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -6887,6 +7608,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -6923,16 +7659,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -6941,6 +7667,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -6973,9 +7779,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7108,6 +7929,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -7738,6 +8562,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -7774,16 +8613,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -7792,6 +8621,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -7824,9 +8733,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7959,6 +8883,9 @@
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -8626,6 +9553,21 @@
               <FileType>1</FileType>
               <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -8662,16 +9604,6 @@
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_gpio.h</FilePath>
             </File>
             <File>
-              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.c</FilePath>
-            </File>
-            <File>
-              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\tm_stm32fusb_hid_device\tm_stm32f4_usb_hid_device.h</FilePath>
-            </File>
-            <File>
               <FileName>tm_stm32f4_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.c</FilePath>
@@ -8680,6 +9612,86 @@
               <FileName>tm_stm32f4_i2c.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usb_hid_device.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_usb_hid_device.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_ili9341.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_ili9341.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_fonts.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_fonts.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_spi_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_spi_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_timer_properties.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -8712,9 +9724,24 @@
               <FilePath>.\User\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>test_STMPE811.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_STMPE811.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_delay.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_hid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_hid.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -8848,8 +9875,67 @@
             </File>
           </Files>
         </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
+        </Group>
       </Groups>
     </Target>
   </Targets>
+
+  <RTE>
+    <apis>
+      <api Capiversion="1.0" Cclass="CMSIS" Cgroup="RTOS" exclusive="1">
+        <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.4.0"/>
+        <targetInfos>
+          <targetInfo name="Nucleo-F401 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F401 USB int 16MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB int 16MHz oscillator"/>
+          <targetInfo name="STM324x9 Eval USB"/>
+          <targetInfo name="STM32F4-Discovery USB"/>
+          <targetInfo name="STM32F401C-Discovery USB"/>
+          <targetInfo name="STM32F411E-Discovery USB"/>
+          <targetInfo name="STM32F429I-Discovery USB"/>
+          <targetInfo name="STM32F446xx USB"/>
+        </targetInfos>
+      </api>
+    </apis>
+    <components>
+      <component Cclass="CMSIS" Cgroup="RTOS" Csub="Keil RTX" Cvendor="ARM" Cversion="4.79.0" condition="Cortex-M Device Startup">
+        <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.4.0"/>
+        <targetInfos>
+          <targetInfo name="Nucleo-F401 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F401 USB int 16MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB int 16MHz oscillator"/>
+          <targetInfo name="STM324x9 Eval USB"/>
+          <targetInfo name="STM32F4-Discovery USB"/>
+          <targetInfo name="STM32F401C-Discovery USB"/>
+          <targetInfo name="STM32F411E-Discovery USB"/>
+          <targetInfo name="STM32F429I-Discovery USB"/>
+          <targetInfo name="STM32F446xx USB"/>
+        </targetInfos>
+      </component>
+    </components>
+    <files>
+      <file attr="config" category="source" name="CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c" version="4.70.1">
+        <instance index="0">RTE\CMSIS\RTX_Conf_CM.c</instance>
+        <component Cclass="CMSIS" Cgroup="RTOS" Csub="Keil RTX" Cvendor="ARM" Cversion="4.79.0" condition="Cortex-M Device Startup"/>
+        <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.4.0"/>
+        <targetInfos>
+          <targetInfo name="Nucleo-F401 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F401 USB int 16MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB ext 8MHz oscillator"/>
+          <targetInfo name="Nucleo-F411 USB int 16MHz oscillator"/>
+          <targetInfo name="STM324x9 Eval USB"/>
+          <targetInfo name="STM32F4-Discovery USB"/>
+          <targetInfo name="STM32F401C-Discovery USB"/>
+          <targetInfo name="STM32F411E-Discovery USB"/>
+          <targetInfo name="STM32F429I-Discovery USB"/>
+          <targetInfo name="STM32F446xx USB"/>
+        </targetInfos>
+      </file>
+    </files>
+  </RTE>
 
 </Project>

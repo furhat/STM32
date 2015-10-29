@@ -29,7 +29,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_it.h"
-#include "main.h"
+
 
 /** @addtogroup Template_Project
   * @{
@@ -107,6 +107,7 @@ void UsageFault_Handler(void)
   }
 }
 
+#if 0 /* defined in hal_cm4.o */
 /**
   * @brief  This function handles SVCall exception.
   * @param  None
@@ -115,6 +116,7 @@ void UsageFault_Handler(void)
 void SVC_Handler(void)
 {
 }
+#endif 
 
 /**
   * @brief  This function handles Debug Monitor exception.
@@ -130,9 +132,11 @@ void DebugMon_Handler(void)
   * @param  None
   * @retval None
   */
+#if 0 /* defined in hal_cm4.o */
 void PendSV_Handler(void)
 {
 }
+#endif
 
 /**
   * @brief  This function decrement timing variable
@@ -149,10 +153,12 @@ __weak void TimingDelay_Decrement(void) {
   * @param  None
   * @retval None
   */
+#if 0 /* defined in hal_cm4.o */
 void SysTick_Handler(void)
 {
 	TimingDelay_Decrement();
 }
+#endif
 
 /******************************************************************************/
 /*                 STM32F4xx Peripherals Interrupt Handlers                   */

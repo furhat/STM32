@@ -156,6 +156,7 @@ Another way is to use ARM compiler.
 #include "stm32f4xx_rcc.h"
 #include "defines.h"
 #include "attributes.h"
+
 /* If user selectable timer is selected for delay */
 #if defined(TM_DELAY_TIM)
 #include "misc.h"
