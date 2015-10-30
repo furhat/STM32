@@ -851,14 +851,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1842,14 +1862,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2833,14 +2873,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3344,7 +3404,7 @@
             <vShortWch>0</vShortWch>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>STM32F429_439xx,USE_STDPERIPH_DRIVER,STM32F4XX,KEIL_IDE,TM_DISCO_STM32F429_DISCOVERY,HSE_VALUE=8000000,PLL_M=8,PLL_N=336,PLL_P=2,PLL_Q=7,USE_USB_OTG_HS,TM_DELAY_TIM=TIM2,TM_DELAY_TIM_IRQ=TIM2_IRQn,TM_DELAY_TIM_IRQ_HANDLER=TIM2_IRQHandler</Define>
+              <Define>STM32F429_439xx,USE_STDPERIPH_DRIVER,STM32F4XX,KEIL_IDE,TM_DISCO_STM32F429_DISCOVERY,HSE_VALUE=8000000,PLL_M=8,PLL_N=336,PLL_P=2,PLL_Q=7,USE_USB_OTG_HS,TM_DELAY_TIM=TIM3,TM_DELAY_TIM_IRQ=TIM3_IRQn,TM_DELAY_TIM_IRQ_HANDLER=TIM3_IRQHandler</Define>
               <Undefine></Undefine>
               <IncludePath>.\User;.\TM;..\00-STM32F429_LIBRARIES;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\inc;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\STM32F4xx_StdPeriph_Driver\src;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Include;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm;..\00-STM32F4xx_STANDARD_PERIPHERAL_DRIVERS\CMSIS\Include;..\00-STM32F429_LIBRARIES\usb_hid_device</IncludePath>
             </VariousControls>
@@ -3825,14 +3885,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4816,14 +4896,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5807,14 +5907,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6798,14 +6918,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7789,14 +7929,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -8743,14 +8903,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -9734,14 +9914,34 @@
               <FilePath>.\User\test_delay.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
-            </File>
-            <File>
               <FileName>test_hid.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_hid.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
           </Files>
         </Group>
