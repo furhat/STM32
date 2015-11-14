@@ -23,7 +23,7 @@
 #include "touch_mouse_engine.h"
 
 
-#if 1
+#if 0
 
 int main(void) {
 

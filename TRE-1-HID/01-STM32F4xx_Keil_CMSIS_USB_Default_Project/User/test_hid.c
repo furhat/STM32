@@ -18,9 +18,9 @@
 
 #include "key_define.h"
 
-#if 0
 
-int main(void) {
+
+int test_hid(void) {
 	uint8_t already = 0;
 	
 	/* Set structs for all examples */
@@ -118,4 +118,4 @@ int main(void) {
 	}
 }
 
-#endif
+

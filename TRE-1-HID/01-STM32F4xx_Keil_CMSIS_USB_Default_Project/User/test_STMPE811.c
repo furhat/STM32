@@ -12,9 +12,9 @@
 #include "tm_stm32f4_stmpe811.h"
 #include <stdio.h>
 
-#if 0
 
-int main(void) {
+
+int test_STMPE811(void) {
 	char str[30];
 	//Create TouchData struct
 	TM_STMPE811_TouchData touchData;
@@ -58,4 +58,4 @@ int main(void) {
 	}
 }
 
-#endif
+

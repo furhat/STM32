@@ -17,8 +17,8 @@
 #include "tm_stm32f4_delay.h"
 #include "tm_stm32f4_disco.h"
 
-#if 0
-int main(void) {
+
+int test_delay(void) {
 	/* Initialize system */
 	SystemInit();
 	
@@ -43,4 +43,4 @@ int main(void) {
 		/* Constantly */
 	}
 }
-#endif
+

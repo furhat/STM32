@@ -810,6 +810,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -879,6 +889,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1821,6 +1851,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1890,6 +1930,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2832,6 +2892,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2901,6 +2971,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3844,6 +3934,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3913,6 +4013,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4855,6 +4975,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4924,6 +5054,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5866,6 +6016,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5935,6 +6095,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6877,6 +7057,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -6946,6 +7136,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7888,6 +8098,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -7957,6 +8177,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -8862,6 +9102,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -8931,6 +9181,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -9873,6 +10143,16 @@
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_timer_properties.h</FilePath>
             </File>
+            <File>
+              <FileName>tm_stm32f4_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\00-STM32F429_LIBRARIES\tm_stm32f4_exti.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -9942,6 +10222,26 @@
               <FileName>touch_mouse.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\touch_mouse.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_exi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_exi.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>test_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\test_gpio.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -16,11 +16,11 @@
 #include "defines.h"
 #include "tm_stm32f4_disco.h"
 #include "tm_stm32f4_exti.h"
-#include "tm_stm32f4_ili9341.h"
 
 #include "touchDriver_ft5x06.h"
 #include "string.h"
 #include "stdio.h"
+#include "log.h"
 
 
 int test_ft5x06(void) {
@@ -28,17 +28,11 @@ int test_ft5x06(void) {
 	SystemInit();
 
 	/* Initialize LEDS */
-	TM_DISCO_LedInit();
-	
-	//Initialize LCD
-	TM_ILI9341_Init();
-	//Fill with orange color
-	TM_ILI9341_Fill(ILI9341_COLOR_ORANGE);
-	//Rotate LCD
-	TM_ILI9341_Rotate(TM_ILI9341_Orientation_Portrait_2);
-	
+	TM_DISCO_LedInit();	
 	
 	initialize_touch_ft5x06();
+	
+	initialize_log_func();
 	
 	while (1) {
 		
@@ -47,12 +41,10 @@ int test_ft5x06(void) {
 
 void TM_EXTI_Handler(uint16_t GPIO_Pin) {
 	static int16_t count = 0; 
-	char str[128] = {0};
-	char str_blank[128];
-	TouchScreen_Data_t l_t_data;
+	static int8_t last_gid = 0x01;
 	
-	memset(str_blank, 0x20, 127);
-	str_blank[127] = '\0';
+	
+	TouchScreen_Data_t l_t_data;	
 	
 	if (GPIO_Pin == FT_INT_PIN) {
 		/* Toggle RED led */
@@ -60,14 +52,28 @@ void TM_EXTI_Handler(uint16_t GPIO_Pin) {
 		
 		get_touch_data(&l_t_data);
 		if(l_t_data.touch_point > 0)
-		{		
-			TM_ILI9341_Puts(20, 80, str_blank, &TM_Font_11x18, ILI9341_COLOR_BLACK, ILI9341_COLOR_ORANGE);
-			
+		{
+			char str[LOG_MAX_SIZE] = {0};
 			sprintf(str, "touch detected %d times. touch point: %d, x1=%d, y1=%d; x2=%d, y2=%d", 
-				count++, l_t_data.touch_point, l_t_data.touches[0].x, l_t_data.touches[0].y, l_t_data.touches[1].x, l_t_data.touches[1].y);
-			
-			
-			TM_ILI9341_Puts(20, 80, str, &TM_Font_11x18, ILI9341_COLOR_BLACK, ILI9341_COLOR_ORANGE);
+				count++, l_t_data.touch_point, l_t_data.touches[0].x, l_t_data.touches[0].y, l_t_data.touches[1].x, l_t_data.touches[1].y);			
+			log(1, str);			
 		}
+		
+		if(last_gid != l_t_data.gid || l_t_data.gid != 0)
+		{			
+			if(l_t_data.gid == 0)
+			{
+				log(0, "No gesture detected.");					
+			}
+			else
+			{
+				char str[LOG_MAX_SIZE];
+				sprintf(str, "Gesture detected: ID = 0x%02x", l_t_data.gid);
+				log(0, str);	
+			}
+			last_gid = l_t_data.gid;
+			
+		}
+		
 	}
 }
