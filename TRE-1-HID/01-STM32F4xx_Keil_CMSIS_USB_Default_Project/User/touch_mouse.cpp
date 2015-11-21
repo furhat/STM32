@@ -17,15 +17,23 @@
 #include "tm_stm32f4_disco.h"
 #include "tm_stm32f4_ili9341.h"
 #include "tm_stm32f4_stmpe811.h"
+#include "tm_stm32f4_exti.h"
 
 #include "key_define.h"
 
 #include "touch_mouse_engine.h"
-#include "touchDriver_ft5x06.h"
+//#include "touchDriver_ft5x06.h"
 #include "log.h"
 #include "stdio.h"
 #include "touch_action.h"
+#include "touch_driver.h"
+#include "hard_config.h"
+#include "touch_panel.h"
 
+
+
+static hard_config_t g_hard_config;
+static touch_panel_t g_touch_panel;
 
 
 
@@ -51,7 +59,7 @@ int touch_mouse(void) {
 	TM_USB_HIDDEVICE_Init();
 	TM_USB_HIDDEVICE_KeyboardStructInit(&Keyboard);	
 	
-	initialize_touch_ft5x06();
+	//initialize_touch_ft5x06();
 	
 	initialize_log_func();
 	
@@ -60,11 +68,30 @@ int touch_mouse(void) {
 	if (TM_EXTI_Attach(GPIOA, GPIO_Pin_0, TM_EXTI_Trigger_Rising) == TM_EXTI_Result_Ok) {
 		TM_DISCO_LedOn(LED_RED);
 	}
+	
+	
+	touch_driver_t* l_touch_driver = g_hard_config.get_touch_driver();
+	l_touch_driver->initilize();
+	
+	g_touch_panel.set_touch_driver(l_touch_driver);
+	
+	
+	
+	
+	
+#if 0	
+	//Initialize Touch
+	if (TM_STMPE811_Init() != TM_STMPE811_State_Ok) {
+		TM_ILI9341_Puts(20, 20, "STMPE811 Error", &TM_Font_11x18, ILI9341_COLOR_ORANGE, ILI9341_COLOR_BLACK);
+		
+		while (1);
+	}
+#endif
 
 
 	while (1) {
 
-			Delayms(10);
+			Delayms(50);
 		
 			/* If we are connected and drivers are OK */
 			if (TM_USB_HIDDEVICE_GetStatus() == TM_USB_HIDDEVICE_Status_Connected) {			
@@ -114,21 +141,15 @@ int touch_mouse(void) {
 				
 			}
 
-#if 1			
+#if 0			
 			action_t* l_action = check_touch_mouse_state();
+			l_action->report_hid();			
+#endif
+			
+			g_touch_panel.update_point_data();
+			action_t* l_action = g_touch_panel.check_action();
 			l_action->report_hid();
 			
-/*			
-			if(TOUCH_EVENT_ACTION == )
-			{
-				{
-					TM_USB_HIDDEVICE_Mouse_t l_mouseData = get_mouse_data();					
-					TM_USB_HIDDEVICE_MouseSend(&l_mouseData);
-				}
-			}
-*/
-			
-#endif
 			
 		} /* while(1) */	
 }

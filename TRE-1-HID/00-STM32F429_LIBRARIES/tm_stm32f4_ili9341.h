@@ -30,6 +30,12 @@
 #ifndef TM_ILI9341_H
 #define TM_ILI9341_H 130
 
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 /**
  * @addtogroup TM_STM32F4xx_Libraries
  * @{

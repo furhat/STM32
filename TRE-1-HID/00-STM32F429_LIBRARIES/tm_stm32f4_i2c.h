@@ -29,6 +29,13 @@
  */
 #ifndef TM_I2C_H
 #define TM_I2C_H 161
+
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	
 /**
  * @addtogroup TM_STM32F4xx_Libraries
  * @{
@@ -393,6 +400,12 @@ __weak void TM_I2C_InitCustomPinsCallback(I2C_TypeDef* I2Cx);
 /**
  * @}
  */
+ 
+ /* C++ detection */
+#ifdef __cplusplus
+}
+#endif
+
 
 #endif
 

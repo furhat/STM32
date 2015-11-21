@@ -6,6 +6,8 @@
 #include "touch_mouse_engine.h"
 #include "stdio.h"
 
+#if 0
+
 typedef enum{
 	TOUCH_STATE_IDLE = 0,
 	TOUCH_STATE_PRESSING,
@@ -16,7 +18,7 @@ typedef enum{
 static	TM_STMPE811_TouchData g_touchData;
 static	TM_STMPE811_TouchData g_touchData_pre;
 
-static 	TM_USB_HIDDEVICE_Mouse_t g_mouseData;
+
 
 static 	TOUCH_STATE g_touch_state = TOUCH_STATE_IDLE;
 
@@ -38,10 +40,7 @@ action_t* check_touch_mouse_state(void)
 	
 	action_t* l_action = &g_action_factory.act_null;
 	
-	TOUCH_EVENT l_event = TOUCH_EVENT_NONE;
-	
-	/* Set default values for mouse struct */
-	TM_USB_HIDDEVICE_MouseStructInit(&g_mouseData);	
+
 	
 	if (TM_STMPE811_ReadTouch(&g_touchData) == TM_STMPE811_State_Pressed) {
 		//Touch valid
@@ -57,8 +56,7 @@ action_t* check_touch_mouse_state(void)
 				g_touch_state = TOUCH_STATE_PRESSING;
 				l_action = &g_action_factory.act_l1_click_down;
 			
-				//g_mouseData.LeftButton = TM_USB_HIDDEVICE_Button_Pressed;
-				//l_event = TOUCH_EVENT_ACTION;
+		
 				break;
 			case TOUCH_STATE_PRESSING:
 			case TOUCH_STATE_MOVING:
@@ -67,9 +65,7 @@ action_t* check_touch_mouse_state(void)
 					g_touch_state = TOUCH_STATE_MOVING;
 					g_action_factory.act_mouse_move.set_value(2* (g_touchData_pre.x - g_touchData.x), 2* (g_touchData_pre.y - g_touchData.y));
 					l_action = &g_action_factory.act_mouse_move;
-					//g_mouseData.XAxis = 2* (g_touchData_pre.x - g_touchData.x);
-					//g_mouseData.YAxis = 2* (g_touchData_pre.y - g_touchData.y);
-					//l_event = TOUCH_EVENT_ACTION;						
+					
 				}
 				break;
 			default:
@@ -89,9 +85,9 @@ action_t* check_touch_mouse_state(void)
 			switch(g_touch_state)
 			{
 				case TOUCH_STATE_PRESSING:
-					//g_mouseData.LeftButton = TM_USB_HIDDEVICE_Button_Released;
+			
 					l_action = &g_action_factory.act_l1_click_up;
-					l_event = TOUCH_EVENT_ACTION;
+					
 					break;
 				case TOUCH_STATE_IDLE:
 				case TOUCH_STATE_MOVING:
@@ -107,7 +103,5 @@ action_t* check_touch_mouse_state(void)
 	return l_action;
 }
 
-TM_USB_HIDDEVICE_Mouse_t get_mouse_data(void)
-{
-		return g_mouseData;
-}
+#endif
+

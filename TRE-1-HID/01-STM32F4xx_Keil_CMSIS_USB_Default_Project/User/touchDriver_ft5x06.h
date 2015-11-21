@@ -11,6 +11,16 @@
  *	
 **/
 
+#ifndef TOUCH_DRIVER_FT5X06_H
+#define TOUCH_DRIVER_FT5X06_H 100
+
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+
 #include "stm32f4xx.h"
 #include "tm_stm32f4_i2c.h"
 #include "tm_stm32f4_delay.h"
@@ -18,8 +28,7 @@
 #include "stm32f4xx_gpio.h"
 #include "tm_stm32f4_exti.h"
 
-#ifndef TOUCH_DRIVER_FT5X06_H
-#define TOUCH_DRIVER_FT5X06_H 100
+
 
 /* Hardware resources definition */
 #define FT_WAKE_RCC_AHB1Periph_GROUP	RCC_AHB1Periph_GPIOA
@@ -55,6 +64,11 @@ typedef struct
 
 void initialize_touch_ft5x06(void);
 void get_touch_data(TouchScreen_Data_t* a_touch_data);
+
+/* C++ detection */
+#ifdef __cplusplus
+}
+#endif
 
 
 #endif /* TOUCH_DRIVER_FT5X06_H */

@@ -114,6 +114,12 @@ VBUS		PA9								PB13						VBUS pin, used on F4 and F429 discovery board for act
 @endverbatim
  */
 
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #include "stm32f4xx.h"
 #include "stm32f4xx_rcc.h"
 #include "stm32f4xx_gpio.h"

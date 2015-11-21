@@ -866,29 +866,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -896,19 +876,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -1039,6 +1029,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1907,29 +1997,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -1937,19 +2007,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -2080,6 +2160,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2948,29 +3128,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -2978,19 +3138,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -3121,6 +3291,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3990,29 +4260,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -4020,19 +4270,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -4163,6 +4423,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -5031,29 +5391,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -5061,19 +5401,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -5204,6 +5554,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -6072,29 +6522,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -6102,19 +6532,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -6245,6 +6685,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -7113,29 +7653,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -7143,19 +7663,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -7286,6 +7816,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -8154,29 +8784,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -8184,19 +8794,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -8327,6 +8947,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -9158,29 +9878,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -9188,19 +9888,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -9331,6 +10041,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -10199,29 +11009,9 @@
               <FilePath>.\User\test_hid.c</FilePath>
             </File>
             <File>
-              <FileName>touch_mouse_engine.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse_engine.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse_engine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touch_mouse_engine.h</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>touch_mouse.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touch_mouse.c</FilePath>
             </File>
             <File>
               <FileName>test_exi.c</FileName>
@@ -10229,19 +11019,29 @@
               <FilePath>.\User\test_exi.c</FilePath>
             </File>
             <File>
-              <FileName>touchDriver_ft5x06.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
-            </File>
-            <File>
-              <FileName>touchDriver_ft5x06.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
-            </File>
-            <File>
               <FileName>test_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\test_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\log.h</FilePath>
+            </File>
+            <File>
+              <FileName>key_define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\key_define.h</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -10372,6 +11172,106 @@
               <FileName>usbd_usr.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\00-STM32F429_LIBRARIES\usb_hid_device\usbd_usr.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>TRE</GroupName>
+          <Files>
+            <File>
+              <FileName>touchDriver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.h</FilePath>
+            </File>
+            <File>
+              <FileName>touchDriver_ft5x06.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\touchDriver_ft5x06.c</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_mouse_engine.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse_engine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse_engine.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_action.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_action.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_action.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_point.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_point.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_point.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_mouse.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_mouse.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_stmpe811.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_stmpe811.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_panel.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_panel.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_panel.h</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\hard_config.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>hard_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\hard_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>touch_driver_ft5x06.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\touch_driver_ft5x06.h</FilePath>
             </File>
           </Files>
         </Group>

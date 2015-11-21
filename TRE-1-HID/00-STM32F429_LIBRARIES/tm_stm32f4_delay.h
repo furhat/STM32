@@ -29,6 +29,14 @@
  */
 #ifndef TM_DELAY_H
 #define TM_DELAY_H 240
+
+
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	
 /**
  * Library dependencies
  * - STM32F4xx
@@ -442,5 +450,11 @@ __weak void TM_DELAY_1msHandler(void);
 /**
  * @}
  */
+ 
+/* C++ detection */
+#ifdef __cplusplus
+}
+#endif
+
 
 #endif

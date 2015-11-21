@@ -10,11 +10,11 @@
 extern "C" 
 {
 	int test_exi(void);
-	int test_ft5x06(void);		
 	int test_STMPE811(void);
 }
 
 extern int touch_mouse(void);
+extern int test_ft5x06(void);
 
 
 /* 

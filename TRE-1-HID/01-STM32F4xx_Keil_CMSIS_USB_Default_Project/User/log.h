@@ -14,12 +14,24 @@
 #ifndef LOG___H
 #define LOG___H
 
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 #include "stm32f4xx.h"
 
-#define LOG_MAX_SIZE 128
+#define LOG_MAX_SIZE 192
 
 void initialize_log_func(void);
 void log(uint8_t id, char* str);
+	
+/* C++ detection */
+#ifdef __cplusplus
+}
+#endif
+
 
 #endif
 

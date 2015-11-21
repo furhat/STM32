@@ -13,18 +13,25 @@
 #ifndef TOUCH_MOUSE_ENGINE_H
 #define TOUCH_MOUSE_ENGINE_H 100
 
+/* C++ detection */
+#ifdef __cplusplus
+extern "C" {
+#endif
+	
+#include "touch_action.h"
+	
+	
 
+#if 0
 
+action_t* check_touch_mouse_state(void);
 
+#endif
 
-typedef enum{
-	TOUCH_EVENT_NONE = 0,
-	TOUCH_EVENT_ACTION,
-	TOUCH_EVENT_RELEASE
-} TOUCH_EVENT;
+/* C++ detection */
+#ifdef __cplusplus
+}
+#endif
 
-TOUCH_EVENT check_touch_mouse_state(void);
-
-TM_USB_HIDDEVICE_Mouse_t get_mouse_data(void);
 
 #endif

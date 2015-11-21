@@ -73,7 +73,7 @@ void initialize_touch_ft5x06(void)
 	}		
 }
 
-void get_one_touch_data(OneTouch_t* a_out_touch, const uint8_t* a_raw_buf)
+void formalize_one_touch_data(OneTouch_t* a_out_touch, const uint8_t* a_raw_buf)
 {	
 	a_out_touch->x = (uint16_t)(*a_raw_buf & 0x0F) << 8 | *(a_raw_buf + 1);
 	a_out_touch->y = (uint16_t)(*(a_raw_buf + 2) & 0x0F) << 8 | *(a_raw_buf + 3);
@@ -92,20 +92,21 @@ void get_touch_data(TouchScreen_Data_t* a_touch_data)
 	switch(a_touch_data->touch_point)
 	{
 		case 5:
-			get_one_touch_data(&a_touch_data->touches[4], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 4);			
+			formalize_one_touch_data(&a_touch_data->touches[4], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 4);			
 		case 4:
-			get_one_touch_data(&a_touch_data->touches[3], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 3);
+			formalize_one_touch_data(&a_touch_data->touches[3], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 3);
 		case 3:
-			get_one_touch_data(&a_touch_data->touches[2], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 2);
+			formalize_one_touch_data(&a_touch_data->touches[2], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF * 2);
 		case 2:
-			get_one_touch_data(&a_touch_data->touches[1], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF);
+			formalize_one_touch_data(&a_touch_data->touches[1], l_read_buffer + IND_TOUCH_1 + IND_TOUCH_DIF);
 		case 1:
-			get_one_touch_data(&a_touch_data->touches[0], l_read_buffer + IND_TOUCH_1);
+			formalize_one_touch_data(&a_touch_data->touches[0], l_read_buffer + IND_TOUCH_1);
 			break;
 		default:
 			break;			
 	}
 	a_touch_data->gid = l_read_buffer[IND_GID];
+	
 }
 
 
