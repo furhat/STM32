@@ -91,7 +91,7 @@ int touch_mouse(void) {
 
 	while (1) {
 
-			Delayms(50);
+			Delayms(25);
 		
 			/* If we are connected and drivers are OK */
 			if (TM_USB_HIDDEVICE_GetStatus() == TM_USB_HIDDEVICE_Status_Connected) {			

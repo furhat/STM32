@@ -32,6 +32,8 @@ private:
 	touch_point_t m_points[MAX_TOUCH_POINT];
 	//uint8_t m_update_flag;
 
+	action_t* m_last_action;
+
 	ACTION_FACTORY m_action_factory;
 	
 	

@@ -32,6 +32,21 @@ void action_l1_click_up_t::report_hid()
 }
 
 //--------------------------------------------------------
+void action_l1_click_t::report_hid()
+{
+	TM_USB_HIDDEVICE_Mouse_t l_mouse_data;
+	TM_USB_HIDDEVICE_MouseStructInit(&l_mouse_data);
+	l_mouse_data.LeftButton = TM_USB_HIDDEVICE_Button_Pressed;
+	TM_USB_HIDDEVICE_MouseSend(&l_mouse_data);
+	
+	Delayms(50);
+	
+	TM_USB_HIDDEVICE_MouseStructInit(&l_mouse_data);	
+	TM_USB_HIDDEVICE_MouseSend(&l_mouse_data);
+}
+
+
+//--------------------------------------------------------
 void action_back_t::report_hid()
 {
 	// send press down

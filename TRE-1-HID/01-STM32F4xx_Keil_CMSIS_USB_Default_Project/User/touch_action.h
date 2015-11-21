@@ -33,6 +33,13 @@ public:
 	virtual void report_hid(void);	
 };
 
+//--------------------------------------------------------
+class action_l1_click_t:public action_t
+{
+public:
+	virtual void report_hid(void);	
+};
+
 
 //--------------------------------------------------------
 class action_back_t:public action_t
@@ -74,6 +81,7 @@ private:
 typedef struct
 {
 	action_null_t act_null;
+	action_l1_click_t	act_l1_click_t;
 	action_l1_click_down_t act_l1_click_down;
 	action_l1_click_up_t act_l1_click_up;
 	action_back_t act_back;
