@@ -108,11 +108,11 @@ void touch_point_t::ripple_data(touch_coord_t a_coord)
 	m_d[0] = a_coord;
 }
 
-coord_dist_t touch_point_t::get_latest_move_distance(void)
+coord_dist_t touch_point_t::get_nth_dist(uint16_t n)
 {
 	coord_dist_t l_dist;
-	l_dist.x = m_d[0].x - m_d[1].x;
-	l_dist.y = m_d[0].y - m_d[1].y;	
+	l_dist.x = m_d[0].x - m_d[n].x;
+	l_dist.y = m_d[0].y - m_d[n].y;	
 	return l_dist;
 	
 }
@@ -125,14 +125,20 @@ bool touch_point_t::is_moved()
 }
 
 
-bool touch_point_t::is_pressed()
-{
+bool touch_point_t::is_pressed(){
 	return is_rise(0);	
 }
 
-bool touch_point_t::is_released()
-{
+bool touch_point_t::is_released(){
 	return is_fall(0);
+}
+
+bool touch_point_t::is_idle(){
+	return (m_d[0].is_null() && m_d[1].is_null());	
+}
+
+bool touch_point_t::is_keep_pressing(){
+	return (m_d[0].is_not_null() && m_d[0] == m_d[1]);
 }
 	
 
@@ -191,11 +197,11 @@ bool touch_point_t::is_double_click()
 			return true;
 	}
 	
-	return false;
-	
-	
-	
+	return false;	
 	
 }
 
+touch_coord_t touch_point_t::get_nth_point(uint16_t n){
+	return m_d[n];
+}
 	

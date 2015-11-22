@@ -73,7 +73,7 @@ void get_data(void)
 			char str[LOG_MAX_SIZE] = {0};
 			sprintf(str, "touch %d times\npoints: %d\nid=%d,x1=%d,y1=%d\nid=%d, x2=%d, y2=%d\n...", 
 				count, l_t_data->touch_point, l_t_data->touches[0].t_id, l_t_data->touches[0].x, l_t_data->touches[0].y, l_t_data->touches[1].t_id, l_t_data->touches[1].x, l_t_data->touches[1].y);			
-			log(1, str);
+			log2lcd(1, str);
 		//}
 					
 	}
@@ -82,13 +82,13 @@ void get_data(void)
 	{			
 		if(l_t_data->gid == 0)
 		{
-			log(0, "No gesture detected.");					
+			log2lcd(0, "No gesture detected.");					
 		}
 		else
 		{
 			char str[LOG_MAX_SIZE];
 			sprintf(str, "Gesture detected: ID = 0x%02x", l_t_data->gid);
-			log(0, str);	
+			log2lcd(0, str);	
 		}
 		last_gid = l_t_data->gid;
 		

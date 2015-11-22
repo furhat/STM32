@@ -4,6 +4,7 @@
 
 #include "stm32f4xx.h"
 #include "touch_defines.h"
+#include "math.h"
 
 #define MAX_TRACK_EDGE 3
 
@@ -32,8 +33,24 @@ public:
 
 typedef struct
 {
-	int16_t x;
-	int16_t y;	
+	float x;
+	float y;
+	
+	void reset(void) {
+		x = 0;
+		y = 0;
+	}
+	
+	float get_dist(void) {
+		return sqrt(x*x + y*y);
+	}
+	
+	void set(touch_coord_t c1, touch_coord_t c2){
+		x = (float)(c1.x) - (float)(c2.x);
+		y = (float)(c1.y) - (float)(c2.y);
+	}
+	
+	
 }coord_dist_t;
 
 typedef struct
@@ -57,9 +74,13 @@ class touch_point_t
 {
 public:
 	touch_point_t();
+
+	touch_coord_t get_nth_point(uint16_t n);
 	
 	
-	coord_dist_t get_latest_move_distance(void);
+	coord_dist_t get_nth_dist(uint16_t n);
+
+	
 
 	void die();
 
@@ -70,6 +91,8 @@ public:
 	bool is_moved();
 	bool is_pressed();
 	bool is_released();
+	bool is_idle();
+	bool is_keep_pressing();
 
 	bool is_double_click();
 	

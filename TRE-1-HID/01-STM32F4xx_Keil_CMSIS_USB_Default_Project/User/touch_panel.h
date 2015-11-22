@@ -7,12 +7,32 @@
 #include "touch_point.h"
 #include "touch_driver.h"
 #include "touch_action.h"
+#include "math.h"
 
 struct touch_point_status
 {
 	uint8_t n;
 	touch_point_t* p[MAX_TOUCH_POINT];
 };
+
+typedef struct{
+	coord_dist_t pre_dist;
+	coord_dist_t cur_dist;
+	
+	int16_t track_num;
+	
+	
+	void reset(void){
+		pre_dist.reset();
+		cur_dist.reset();	
+		track_num = 0;
+	}	
+	
+	float get_dist_change(void){
+		return cur_dist.get_dist() - pre_dist.get_dist();
+	}
+	
+}move_track_t;
 
 class touch_panel_t
 {
@@ -34,7 +54,11 @@ private:
 
 	action_t* m_last_action;
 
+	int16_t m_move_acc;
+
 	ACTION_FACTORY m_action_factory;
+
+	move_track_t m_move_track;
 	
 	
 	

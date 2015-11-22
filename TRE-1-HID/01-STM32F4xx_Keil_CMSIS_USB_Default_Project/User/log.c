@@ -19,7 +19,7 @@ void initialize_log_func(void)
 	str_blank[LOG_MAX_SIZE - 1] = '\0';	
 }
 
-void log(uint8_t id, char* str)
+void log2lcd(uint8_t id, char* str)
 {
 	if(id == 1)
 	{

@@ -54,12 +54,12 @@ class action_mouse_move_t:public action_t
 {
 public:
 	action_mouse_move_t(void);
-	action_mouse_move_t(uint16_t x, uint16_t y);
-	void set_value(uint16_t x, uint16_t y);
+	action_mouse_move_t(int16_t x, int16_t y);
+	void set_value(int16_t x, int16_t y);
 	virtual void report_hid(void);
 private:
-	uint16_t m_x_move;
-	uint16_t m_y_move;
+	int16_t m_x_move;
+	int16_t m_y_move;
 };
 
 //--------------------------------------------------------
@@ -76,6 +76,20 @@ private:
 	
 };
 
+
+//--------------------------------------------------------
+
+class action_zoom_t:public action_t
+{
+public:
+	action_zoom_t(void);
+	action_zoom_t(int16_t value);
+	void set_value(int16_t value);
+	virtual void report_hid(void);	
+private:
+	int16_t m_zoom_value;	
+};
+
 //--------------------------------------------------------
 // action factory to pre-creat all the actions
 typedef struct
@@ -87,6 +101,7 @@ typedef struct
 	action_back_t act_back;
 	action_mouse_move_t act_mouse_move;
 	action_scroll_t act_scroll;
+	action_zoom_t act_zoom;
 	
 }ACTION_FACTORY;
 

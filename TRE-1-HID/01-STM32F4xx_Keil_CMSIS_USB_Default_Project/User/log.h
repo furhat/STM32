@@ -25,7 +25,7 @@ extern "C" {
 #define LOG_MAX_SIZE 192
 
 void initialize_log_func(void);
-void log(uint8_t id, char* str);
+void log2lcd(uint8_t id, char* str);
 	
 /* C++ detection */
 #ifdef __cplusplus

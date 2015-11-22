@@ -107,12 +107,12 @@ int touch_mouse(void) {
 				
 				/* Set pressed keys = WIN + R */
 				/* Keyboard.L_GUI = TM_USB_HIDDEVICE_Button_Pressed; */	/* Win button */
-				Keyboard.Key1 = KEY_ESC;
+				//Keyboard.Key1 = KEY_ESC;
 				
-				/*
+				
 				Keyboard.L_CTRL = TM_USB_HIDDEVICE_Button_Pressed;
-				Keyboard.Key1 = 0x12;
-				*/
+				Keyboard.Key1 = 0x2E;
+				
 				
 				/*
 				Keyboard.Key1 = KEY_WIN_MENU;
@@ -121,7 +121,7 @@ int touch_mouse(void) {
 				
 				/* Send keyboard report */
 				
-				/* TM_USB_HIDDEVICE_KeyboardSend(&Keyboard); */
+				// TM_USB_HIDDEVICE_KeyboardSend(&Keyboard);
 			} else if (!TM_DISCO_ButtonPressed() && already == 1) { /* Button on release */
 				already = 0;
 				
@@ -135,9 +135,29 @@ int touch_mouse(void) {
 				TM_USB_HIDDEVICE_KeyboardSend(&Keyboard);
 				*/
 				
-				action_back_t l_act_back;
-				action_t* l_act = &l_act_back;
-				l_act->report_hid();
+				/*
+				{				
+					action_back_t l_act_back;
+					action_t* l_act = &l_act_back;
+					l_act->report_hid();
+				}
+				*/
+				
+				/*
+				{				
+					action_scroll_t l_act_scroll(1);
+					action_t* l_act = &l_act_scroll;
+					l_act->report_hid();
+				}
+				*/
+				
+				{				
+					action_zoom_t l_act_zoom(1);
+					action_t* l_act = &l_act_zoom;
+					l_act->report_hid();
+				}
+				
+				
 				
 			}
 
@@ -171,7 +191,7 @@ void TM_EXTI_Handler(uint16_t GPIO_Pin) {
 			char str[LOG_MAX_SIZE] = {0};
 			sprintf(str, "touch detected %d times. touch point: %d, x1=%d, y1=%d; x2=%d, y2=%d", 
 				count++, l_t_data.touch_point, l_t_data.touches[0].x, l_t_data.touches[0].y, l_t_data.touches[1].x, l_t_data.touches[1].y);			
-			log(1, str);
+			log2lcd(1, str);
 
 			
 		}
@@ -179,11 +199,11 @@ void TM_EXTI_Handler(uint16_t GPIO_Pin) {
 		if(last_gid != l_t_data.gid || l_t_data.gid != 0)
 		{			
 			if(l_t_data.gid == 0){
-				log(0, "No gesture detected.");					
+				log2lcd(0, "No gesture detected.");					
 			}else			{
 				char str[LOG_MAX_SIZE];
 				sprintf(str, "Gesture detected: ID = 0x%02x", l_t_data.gid);
-				log(0, str);	
+				log2lcd(0, str);	
 			}
 			last_gid = l_t_data.gid;			
 		}		
