@@ -72,26 +72,7 @@ void touch_point_t::coord_change(touch_coord_t a_coord)
 			touch_coord_t* p = m_d;	
 		}		
 	}
-#endif	
-	
-/*	
-	if(!a_coord.is_null())	
-	{
-		ripple_data(a_coord);
-		
-		if(m_data_num < MAX_HIS_COORDS) m_data_num++;
-		
-		
-		if(m_state == TOUCH_STATE_DEAD)
-		{
-			m_state = TOUCH_STATE_PRESSING;
-		}
-		else if(m_state == TOUCH_STATE_PRESSING && is_moved())
-		{
-			m_state = TOUCH_STATE_MOVING;
-		}
-	}
-*/	
+#endif
 }
 
 
@@ -153,10 +134,6 @@ void touch_point_t::die()
 	memset(m_d, 0x00, (MAX_HIS_COORDS + 1)*sizeof(touch_coord_t));
 }
 
-touch_coord_t* touch_point_t::get_p(void)
-{
-	return m_d;
-}
 
 void touch_point_t::stats_edges(void){
 	for(uint16_t i = 0; i < MAX_HIS_COORDS; i++){
@@ -179,6 +156,23 @@ bool touch_point_t::is_fall(uint16_t i){
 	return (m_d[i].is_null() && m_d[i+1].is_not_null());
 }
 
+bool touch_point_t::is_single_click()
+{
+	if(!is_fall(0)){
+		return false;
+	}
+	
+	stats_edges();
+	
+	if(m_rises.num < 1) return false;
+	
+	if((m_falls.num >= 1) && (m_rises.ids[0] - m_falls.ids[0]) < 5){
+		if(m_falls.num == 1) return true;
+		if(m_falls.num > 1 && (m_falls.ids[1] - m_rises.ids[0]) > 20) return true;
+	}
+	return false;
+}
+
 bool touch_point_t::is_double_click()
 {
 	if(!is_fall(0)){
@@ -198,6 +192,14 @@ bool touch_point_t::is_double_click()
 	}
 	
 	return false;	
+	
+}
+
+bool touch_point_t::is_long_press(){
+	stats_edges();
+	
+	if(m_rises.num > 0 && m_rises.ids[0] > 10) return true;
+	return false;
 	
 }
 

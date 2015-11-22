@@ -59,6 +59,11 @@ private:
 	ACTION_FACTORY m_action_factory;
 
 	move_track_t m_move_track;
+
+	bool m_long_press_sent;
+
+	// for debug
+	int16_t m_debug_cnt;
 	
 	
 	

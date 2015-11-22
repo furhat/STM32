@@ -86,8 +86,6 @@ public:
 
 	void coord_change(touch_coord_t a_coord);
 
-	touch_coord_t* get_p(void); 
-
 	bool is_moved();
 	bool is_pressed();
 	bool is_released();
@@ -95,6 +93,8 @@ public:
 	bool is_keep_pressing();
 
 	bool is_double_click();
+	bool is_single_click();
+	bool is_long_press();
 	
 	
 

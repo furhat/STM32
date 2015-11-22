@@ -63,6 +63,22 @@ void action_back_t::report_hid()
 }
 
 //--------------------------------------------------------
+void action_menu_t::report_hid()
+{
+	// send press down
+	TM_USB_HIDDEVICE_Keyboard_t l_keyboard;
+	TM_USB_HIDDEVICE_KeyboardStructInit(&l_keyboard);
+	l_keyboard.Key1 = KEY_WIN_MENU;
+	TM_USB_HIDDEVICE_KeyboardSend(&l_keyboard);
+	
+	Delayms(50);
+	
+	//send press up
+	TM_USB_HIDDEVICE_KeyboardStructInit(&l_keyboard);
+	TM_USB_HIDDEVICE_KeyboardSend(&l_keyboard);
+}
+
+//--------------------------------------------------------
 action_mouse_move_t::action_mouse_move_t(void):m_x_move(0),m_y_move(0)
 {
 }

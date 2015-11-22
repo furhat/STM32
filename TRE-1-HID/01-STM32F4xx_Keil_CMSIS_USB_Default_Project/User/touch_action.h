@@ -48,6 +48,13 @@ public:
 	virtual void report_hid(void);
 };
 
+//--------------------------------------------------------
+class action_menu_t:public action_t
+{
+public:	
+	virtual void report_hid(void);
+};
+
 
 //--------------------------------------------------------
 class action_mouse_move_t:public action_t
@@ -95,13 +102,14 @@ private:
 typedef struct
 {
 	action_null_t act_null;
-	action_l1_click_t	act_l1_click_t;
+	action_l1_click_t	act_l1_click;
 	action_l1_click_down_t act_l1_click_down;
 	action_l1_click_up_t act_l1_click_up;
 	action_back_t act_back;
 	action_mouse_move_t act_mouse_move;
 	action_scroll_t act_scroll;
 	action_zoom_t act_zoom;
+	action_menu_t act_menu;
 	
 }ACTION_FACTORY;
 

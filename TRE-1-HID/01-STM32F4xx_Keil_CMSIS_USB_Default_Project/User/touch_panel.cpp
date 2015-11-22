@@ -15,6 +15,8 @@ touch_panel_t::touch_panel_t()
 	m_last_action = &m_action_factory.act_null;
 	m_move_acc = 0;
 	m_move_track.reset();
+	m_debug_cnt = 0;
+	m_long_press_sent = false;
 }
 
 touch_panel_t::touch_panel_t(touch_driver_t* a_driver)
@@ -23,6 +25,8 @@ touch_panel_t::touch_panel_t(touch_driver_t* a_driver)
 	m_last_action = &m_action_factory.act_null;
 	m_move_acc = 0;
 	m_move_track.reset();
+	m_debug_cnt = 0;
+	m_long_press_sent = false;
 }
 
 void touch_panel_t::set_touch_driver(touch_driver_t* a_driver)
@@ -36,7 +40,7 @@ action_t* touch_panel_t::check_action(void)
 {
 	action_t* l_action = &m_action_factory.act_null;
 	
-	if(m_points[1].is_idle() && !m_points[0].is_idle()){
+	if(!m_points[0].is_idle() && m_points[1].is_idle()){
 		if(m_points[0].is_moved()){
 			coord_dist_t l_dis = m_points[0].get_nth_dist(1);
 			m_action_factory.act_mouse_move.set_value(MOUSE_MOVE_AMP * (int16_t)l_dis.x, MOUSE_MOVE_AMP * (int16_t)l_dis.y);
@@ -46,39 +50,56 @@ action_t* touch_panel_t::check_action(void)
 			// discard the release from a moving press
 			if(m_last_action != &m_action_factory.act_mouse_move)	{
 				if(m_points[0].is_double_click())	{
-					l_action = &m_action_factory.act_l1_click_t;
+					l_action = &m_action_factory.act_l1_click;
 				}
 			}
+			
+			m_long_press_sent = false;
 		}
-	}else{
-		if(m_points[0].is_moved() && m_points[1].is_moved()){					
-			coord_dist_t l_dist1 = m_points[0].get_nth_dist(TRACK_CHECK_PERIOD);
-			//coord_dist_t l_dist2 = m_points[1].get_nth_dist(TRACK_CHECK_PERIOD);
-			if(l_dist1.y > SCROLL_MOVE_UNIT){
-				m_action_factory.act_scroll.set_value(-1);
-				l_action = &m_action_factory.act_scroll;						
-			}else if(l_dist1.y < (0 - SCROLL_MOVE_UNIT)){
-				m_action_factory.act_scroll.set_value(1);
-				l_action = &m_action_factory.act_scroll;
+		else if(m_points[0].is_keep_pressing()){
+			if(!m_long_press_sent){
+					if(m_points[0].is_long_press()){
+						l_action = &m_action_factory.act_menu;
+						m_long_press_sent = true;						
+					}
 			}
-		}else if(m_points[0].is_keep_pressing() && m_points[1].is_moved()){
-			if(m_move_track.track_num == 0)
-			{
-				m_move_track.pre_dist.set(m_points[0].get_nth_point(0), m_points[1].get_nth_point(0));
-			}			
-			if(++m_move_track.track_num > TRACK_CHECK_PERIOD){
-				m_move_track.cur_dist.set(m_points[0].get_nth_point(0), m_points[1].get_nth_point(0));
-				float l_dist_change = m_move_track.get_dist_change();
-				if(l_dist_change > DIST_CHANGE_THRE){
-					m_action_factory.act_zoom.set_value(1);
-					l_action = &m_action_factory.act_zoom;
-				}else if(l_dist_change < (0 - DIST_CHANGE_THRE)){
-					m_action_factory.act_zoom.set_value(-1);
-					l_action = &m_action_factory.act_zoom;
-				}					
-				m_move_track.reset();				
-			}
+			//if(m_debug_cnt++ > 10){
+		
+			//}
+			
+			
 		}
+	}else	if(m_points[0].is_moved() && m_points[1].is_moved()){					
+		coord_dist_t l_dist1 = m_points[0].get_nth_dist(TRACK_CHECK_PERIOD);
+		//coord_dist_t l_dist2 = m_points[1].get_nth_dist(TRACK_CHECK_PERIOD);
+		if(l_dist1.y > SCROLL_MOVE_UNIT){
+			m_action_factory.act_scroll.set_value(-1);
+			l_action = &m_action_factory.act_scroll;						
+		}else if(l_dist1.y < (0 - SCROLL_MOVE_UNIT)){
+			m_action_factory.act_scroll.set_value(1);
+			l_action = &m_action_factory.act_scroll;
+		}
+	}else if(m_points[0].is_keep_pressing() && m_points[1].is_moved()){
+		if(m_move_track.track_num == 0)
+		{
+			m_move_track.pre_dist.set(m_points[0].get_nth_point(0), m_points[1].get_nth_point(0));
+		}			
+		if(++m_move_track.track_num > TRACK_CHECK_PERIOD){
+			m_move_track.cur_dist.set(m_points[0].get_nth_point(0), m_points[1].get_nth_point(0));
+			float l_dist_change = m_move_track.get_dist_change();
+			if(l_dist_change > DIST_CHANGE_THRE){
+				m_action_factory.act_zoom.set_value(1);
+				l_action = &m_action_factory.act_zoom;
+			}else if(l_dist_change < (0 - DIST_CHANGE_THRE)){
+				m_action_factory.act_zoom.set_value(-1);
+				l_action = &m_action_factory.act_zoom;
+			}					
+			m_move_track.reset();				
+		}		
+	}else if(m_points[0].is_keep_pressing() && m_points[1].is_released()){
+		if(m_points[1].is_single_click()){
+			l_action = &m_action_factory.act_back;			
+		}		
 	}
 
 	
